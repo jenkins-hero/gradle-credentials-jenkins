@@ -1,4 +1,5 @@
 credentials:latest
 credentials-binding:latest
 git:latest
+job-dsl:latest
 workflow-aggregator:latest
