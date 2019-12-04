@@ -16,7 +16,7 @@ publishing {
 
     repositories {
         maven {
-            url = "http://localhost:8081/repository/internal"
+            url = "http://localhost:8081/repository/snapshots"
             credentials {
                 username mavenUsername
                 password mavenPassword
