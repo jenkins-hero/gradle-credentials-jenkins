@@ -11,4 +11,5 @@ allprojects {
 docker {
     name "${project.name}:${project.version}"
     files "plugins.txt"
+    files "seedJob.xml"
 }
