@@ -1,2 +1,0 @@
-credentials:latest
-credentials-binding:latest
