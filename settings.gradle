@@ -1,2 +1,3 @@
 rootProject.name = 'gradle-credentials-jenkins'
 
+include 'artifact-to-publish', 'project-to-build'

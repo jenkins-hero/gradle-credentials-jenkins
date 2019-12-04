@@ -4,3 +4,7 @@ services:
     image: gradle-credentials-jenkins:1.0-SNAPSHOT
     ports:
       - 8080:8080
+  archiva:
+    image: xetusoss/archiva
+    ports:
+      - 8081:8080

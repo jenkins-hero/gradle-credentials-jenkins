@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    maven {
+        url 'http://localhost:8081/repository/internal'
+        credentials {
+            username mavenUsername
+            password mavenPassword
+        }
+    }
+}
+
+dependencies {
+    implementation group: 'com.tom', name: 'artifact-to-publish', version: project.version
+}
