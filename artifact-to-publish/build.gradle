@@ -16,7 +16,7 @@ publishing {
 
     repositories {
         maven {
-            url = "http://localhost:8081/repository/snapshots"
+            url = "http://archiva:8080/repository/snapshots"
             credentials {
                 username System.getenv('ARCHIVA_USR')
                 password System.getenv('ARCHIVA_PSW')
