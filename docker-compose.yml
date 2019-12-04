@@ -1,0 +1,6 @@
+version: "3"
+services:
+  jenkins:
+    image: gradle-credentials-jenkins:1.0-SNAPSHOT
+    ports:
+      - 8080:8080

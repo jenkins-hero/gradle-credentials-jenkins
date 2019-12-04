@@ -1,0 +1,12 @@
+plugins {
+    id "com.palantir.docker" version "0.22.1"
+    id "com.palantir.docker-compose" version "0.22.1"
+}
+
+group 'com.tom'
+version '1.0-SNAPSHOT'
+
+docker {
+    name "${project.name}:${project.version}"
+    files "plugins.txt"
+}
