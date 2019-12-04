@@ -1,6 +1,9 @@
 pipeline {
     agent any
 
+    environment {
+        ARCHIVA = credentials('archiva')
+    }
     stages {
         stage('Build') {
             steps {
