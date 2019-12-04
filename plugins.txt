@@ -1,2 +1,4 @@
 credentials:latest
 credentials-binding:latest
+git:latest
+workflow-aggregator:latest
