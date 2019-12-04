@@ -6,8 +6,8 @@ repositories {
     maven {
         url 'http://localhost:8080/repository/snapshots'
         credentials {
-            username ARCHIVA_USR
-            password ARCHIVA_PSW
+            username System.getenv('ARCHIVA_USR')
+            password System.getenv('ARCHIVA_PSW')
         }
     }
 }
