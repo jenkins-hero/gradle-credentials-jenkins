@@ -18,8 +18,8 @@ publishing {
         maven {
             url = "http://localhost:8081/repository/snapshots"
             credentials {
-                username mavenUsername
-                password mavenPassword
+                username ARCHIVA_USR
+                password ARCHIVA_PSW
             }
         }
     }
