@@ -9,7 +9,7 @@ pipeline {
             steps {
                 git branch: 'master', credentialsId: 'git', url: 'https://github.com/tkgregory/gradle-credentials-jenkins.git'
 
-                sh './gradlew publish'
+                sh './gradlew publish --info'
             }
         }
     }
