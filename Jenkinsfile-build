@@ -7,9 +7,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                git branch: 'master', credentialsId: 'git', url: 'https://github.com/tkgregory/gradle-credentials-jenkins.git'
+                git 'https://github.com/tkgregory/gradle-credentials-jenkins.git'
 
-                sh './gradlew build --info'
+                sh './gradlew build --info --stacktrace'
             }
         }
     }
