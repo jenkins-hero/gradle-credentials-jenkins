@@ -3,7 +3,7 @@ at [tomgregory.com](https://www.tomgregory.com).
 
 ## Pre-requisites
 
-* Docker (unless you just want to run the application)
+* Docker
 
 ## Running
 
