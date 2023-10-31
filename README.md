@@ -1,5 +1,5 @@
 Repository to go along with the *How To Secure Your Gradle Credentials In Jenkins* article
-at [tomgregory.com](https://www.tomgregory.com).
+at [jenkinshero.com](https://jenkinshero.com/how-to-secure-your-gradle-credentials-in-jenkins/).
 
 ## Pre-requisites
 
